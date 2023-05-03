@@ -1,8 +1,3 @@
-# rconnect
-
-## Usage
-
-```ts
 import { BF4Api, RconClient } from './src/mod.ts'
 
 const ip = ''
@@ -26,10 +21,3 @@ async function main() {
 }
 
 main()
-```
-
-For debug run your app
-
-```
-DEBUG=* deno run --allow-env --allow-net app.ts
-```
