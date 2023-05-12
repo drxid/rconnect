@@ -2,12 +2,13 @@ import { BF4Api, RconClient } from './src/mod.ts'
 
 const ip = ''
 const port = ''
+const password = ''
 
 async function main() {
   const rconClient = new RconClient(ip, port)
   try {
     const bf4 = new BF4Api(rconClient)
-    await bf4.login('password')
+    await bf4.login(password)
 
     const serverInfo = await bf4.serverInfo()
     console.log('serverInfo', serverInfo)
