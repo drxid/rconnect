@@ -1,4 +1,13 @@
-# rconnect
+<p align="center">
+  <a href="https://github.com/drxid/rconnect" target="_blank">
+    <img src="https://i.ibb.co/bQggyJg/rcon.png" alt="rconnet" width="500">
+  </a>
+</p>
+
+<p align="center">
+  rconnect — is the RCON layer for Battlefield/Frostbite engine, powered by node.js and enhanced with Deno for modern code and type safety. <br>
+  It enables easy creation of custom server management interfaces with automated map voting, team allocation, real-time player stats, and more.
+<p>
 
 ## Usage
 
@@ -29,8 +38,7 @@ async function main() {
 main()
 ```
 
-For debug run your app
-
+### For debug run your app
 ```
 DEBUG=* deno run --allow-env --allow-net app.ts
 ```
